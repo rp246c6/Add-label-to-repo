@@ -1,7 +1,7 @@
-Class Finance
+public class Finance
 {
   public static void main(String args[])
   {
-    System.out.println("Welcome to Finance")
+    System.out.println("Welcome to Finance");
   }
 }
