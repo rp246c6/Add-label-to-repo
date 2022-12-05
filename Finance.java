@@ -6,7 +6,7 @@ public class Finance
     System.out.println("Welcome to Finance");
     System.out.println("checking Commission..");
     Finance com = new Finance();
-    if(com.checkCommission())
+    if(com.checkCommission(commission))
     {
       System.out.println("Eligible for Commission");
     }
