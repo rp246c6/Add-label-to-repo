@@ -4,20 +4,21 @@ public class Finance
   {
     int commission = 10;
     System.out.println("Welcome to Finance");
-    System.out.println("checking commission..");
+    System.out.println("checking Commission..");
     Finance com = new Finance();
-    if(com.checkCommission(commission))
+    if(com.checkCommission())
     {
-      System.out.println("Eligible for commission");
+      System.out.println("Eligible for Commission");
     }
     else
     {
-      System.out.println("Not Eligible for commission");
+      System.out.println("Not Eligible for Commission");
     }
 
   }
-  public Boolean checkCommission(int commission)
+  public Boolean checkCommission(int Commission)
   {
-    return commission>100?true:false;
+     return Commission > 100 ? true : false;
   }
+  
 }
