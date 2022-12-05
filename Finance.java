@@ -2,7 +2,6 @@ public class Finance
 {
   public static void main(String args[])
   {
-
     int commission = 10;
     System.out.println("Welcome to Finance");
     System.out.println("checking Commission..");
