@@ -10,9 +10,9 @@ class priceDetermine {
           priceDetermine price = new priceDetermine();
           demand_flag = price.checkDemand(demand,supply);
           if(demand_flag)
-          System.out.println("Demand is: "+demand+ " greater than supply: "+supply+ " price will increase" );
+          System.out.println("Demand is:  "+demand+ " greater than supply: "+supply+ " price will increase" );
           else
-          System.out.println("Demand is: "+demand+ " less than supply: "+supply+ " price will decrease");
+          System.out.println("Demand is:  "+demand+ " less than supply: "+supply+ " price will decrease");
 
     }
 
